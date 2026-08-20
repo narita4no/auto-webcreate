@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>リフォームショップ株式会社様専用 | AI活用デモサイト</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; }
+  .chat-bubble-in { animation: fadeIn .4s ease-out; }
+  @keyframes fadeIn { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:translateY(0);} }
+</style>
+</head>
+<body class="bg-sky-50 text-slate-800">
+
+  <div class="bg-sky-700 text-white text-center text-sm py-2 px-4">
+    このページはリフォームショップ株式会社様のために作成した「専用デモサイト（試作案）」です。実際の導入イメージをご確認いただくためのモックアップです。
+  </div>
+
+  <header class="sticky top-0 z-30 bg-white/90 backdrop-blur border-b border-sky-200">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-9 h-9 rounded-lg bg-sky-700 flex items-center justify-center text-white font-bold">R</div>
+        <span class="font-bold text-lg tracking-wide">リフォームショップ</span>
+      </div>
+      <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-600">
+        <a href="#service" class="hover:text-sky-700">実績・強み</a>
+        <a href="#ai" class="hover:text-sky-700">AI自動見積もり</a>
+        <a href="#voice" class="hover:text-sky-700">お客様の声</a>
+        <a href="#contact" class="hover:text-sky-700">お問い合わせ</a>
+      </nav>
+      <a href="#contact" class="bg-sky-700 text-white text-sm font-bold px-5 py-2.5 rounded-full hover:bg-sky-800 transition">無料相談する</a>
+    </div>
+  </header>
+
+  <section class="relative overflow-hidden bg-gradient-to-br from-sky-50 via-white to-slate-50">
+    <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="inline-block bg-sky-100 text-sky-800 text-xs font-bold px-3 py-1 rounded-full mb-4">東京都中央区〜千葉市エリア対応</span>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight text-slate-900">
+          TOTO・パナソニック公認の実力を、<br class="hidden md:block">
+          <span class="text-sky-700">お電話を待たずに</span>お届け。
+        </h1>
+        <p class="mt-6 text-slate-600 leading-relaxed">
+          口コミ評価4.8（25件）の確かな施工力に、AIによる「即時見積もり」を掛け合わせ。
+          コールバック方式のお電話を待つ間も、AIがその場で概算をお答えします。
+        </p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="#ai" class="bg-sky-700 text-white font-bold px-6 py-3 rounded-full hover:bg-sky-800 transition">AI自動見積もりを見る</a>
+          <a href="#contact" class="bg-white border border-slate-300 font-bold px-6 py-3 rounded-full hover:bg-slate-50 transition">資料をもらう</a>
+        </div>
+        <div class="mt-10 flex items-center gap-6 text-sm text-slate-500">
+          <div><span class="text-2xl font-extrabold text-slate-900">4.8</span> / 5.0（口コミ25件）</div>
+          <div class="w-px h-8 bg-slate-300"></div>
+          <div><span class="text-2xl font-extrabold text-slate-900">2007</span>年 設立</div>
+          <div class="w-px h-8 bg-slate-300"></div>
+          <div><span class="text-2xl font-extrabold text-slate-900">TOTO/Panasonic</span></div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="bg-white rounded-2xl shadow-xl border border-sky-200 p-5">
+          <div class="flex items-center gap-2 mb-4">
+            <div class="w-2.5 h-2.5 rounded-full bg-red-400"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-amber-400"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-green-400"></div>
+            <span class="ml-2 text-xs text-slate-400">LINE公式アカウント（デモ）</span>
+          </div>
+          <div class="bg-slate-100 rounded-xl p-4 space-y-3 h-80 overflow-y-auto">
+            <div class="chat-bubble-in flex justify-start">
+              <div class="bg-white rounded-2xl rounded-bl-sm px-4 py-2 text-sm shadow max-w-[80%]">
+                こんにちは！リフォームショップAIアシスタントです😊<br>コールバックを待たずに概算をお出しします。
+              </div>
+            </div>
+            <div class="chat-bubble-in flex justify-end">
+              <div class="bg-sky-700 text-white rounded-2xl rounded-br-sm px-4 py-2 text-sm shadow max-w-[80%]">
+                マンションを1室丸ごとリノベーションしたいです
+              </div>
+            </div>
+            <div class="chat-bubble-in flex justify-start">
+              <div class="bg-white rounded-2xl rounded-bl-sm px-4 py-2 text-sm shadow max-w-[80%]">
+                承知しました！専有面積はおおよそ何㎡ですか？
+              </div>
+            </div>
+            <div class="chat-bubble-in flex justify-end">
+              <div class="bg-sky-700 text-white rounded-2xl rounded-br-sm px-4 py-2 text-sm shadow max-w-[80%]">
+                65㎡くらいです
+              </div>
+            </div>
+            <div class="chat-bubble-in flex justify-start">
+              <div class="bg-white rounded-2xl rounded-bl-sm px-4 py-2 text-sm shadow max-w-[80%]">
+                過去の同条件施工事例から、<br>
+                <span class="font-bold text-sky-700">概算：450万円〜650万円</span> が目安です。<br>
+                担当者から折り返しご連絡し、詳細なお見積もりをお送りします。
+              </div>
+            </div>
+          </div>
+          <p class="text-xs text-center text-slate-400 mt-3">※コールバック待ち時間の一次ヒアリングをAIが自動対応するイメージです</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-2xl md:text-3xl font-extrabold text-center">リフォームショップが選ばれる理由</h2>
+    <p class="text-center text-slate-500 mt-3">大手メーカー公認のパートナーショップ</p>
+    <div class="grid md:grid-cols-3 gap-6 mt-12">
+      <div class="bg-white rounded-xl border border-sky-200 p-6">
+        <div class="w-12 h-12 rounded-lg bg-sky-100 flex items-center justify-center text-sky-700 font-bold mb-4">認</div>
+        <h3 class="font-bold text-lg mb-2">TOTO・パナソニック公認</h3>
+        <p class="text-sm text-slate-600">大手住宅設備メーカーのパートナーショップとして認定された確かな施工力。</p>
+      </div>
+      <div class="bg-white rounded-xl border border-sky-200 p-6">
+        <div class="w-12 h-12 rounded-lg bg-sky-100 flex items-center justify-center text-sky-700 font-bold mb-4">保</div>
+        <h3 class="font-bold text-lg mb-2">保険完備・ローン対応</h3>
+        <p class="text-sm text-slate-600">賠償責任保険・組立保険加入済み。複数のリフォームローンにも対応。</p>
+      </div>
+      <div class="bg-white rounded-xl border border-sky-200 p-6">
+        <div class="w-12 h-12 rounded-lg bg-sky-100 flex items-center justify-center text-sky-700 font-bold mb-4">口</div>
+        <h3 class="font-bold text-lg mb-2">口コミ評価4.8（25件）</h3>
+        <p class="text-sm text-slate-600">「クロスも自由に選べて、遊び心のある仕上がりに大満足」など高評価。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ai" class="bg-slate-900 text-white py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl md:text-3xl font-extrabold text-center">AI導入で、こんな課題を解決できます</h2>
+      <p class="text-center text-slate-400 mt-3">「コールバック方式」の待ち時間をAIが埋めます</p>
+      <div class="grid md:grid-cols-2 gap-8 mt-14">
+        <div class="bg-slate-800 rounded-xl p-6 border border-slate-700">
+          <h3 class="font-bold text-lg text-red-400 mb-3">現状の課題（推測）</h3>
+          <ul class="space-y-3 text-sm text-slate-300">
+            <li class="flex gap-2"><span>・</span>お電話がコールバック方式のため、お客様は折り返しを待つ間、他社に相談してしまう可能性がある</li>
+            <li class="flex gap-2"><span>・</span>水曜・日曜定休のため、その時間帯の問い合わせ対応に空白が生まれやすい</li>
+            <li class="flex gap-2"><span>・</span>東京都中央区〜千葉市までの広域対応のため、エリアごとの一次ヒアリングに工数がかかる</li>
+          </ul>
+        </div>
+        <div class="bg-sky-700 rounded-xl p-6">
+          <h3 class="font-bold text-lg mb-3">AI活用による解決策</h3>
+          <ul class="space-y-3 text-sm">
+            <li class="flex gap-2"><span>・</span>コールバックを待つ間にAIチャットで一次ヒアリング・概算提示を行い、離脱を防止</li>
+            <li class="flex gap-2"><span>・</span>定休日でもAIが問い合わせを受け付け、営業再開後に優先度順で折り返し</li>
+            <li class="flex gap-2"><span>・</span>エリア・物件種別ごとにAIが自動仕分けし、担当者への引き継ぎをスムーズに</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="voice" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-2xl md:text-3xl font-extrabold text-center">お客様の声（Googleクチコミより）</h2>
+    <div class="grid md:grid-cols-3 gap-6 mt-12">
+      <div class="bg-white rounded-xl border border-sky-200 p-6">
+        <div class="text-sky-500 mb-2">★★★★★</div>
+        <p class="text-sm text-slate-600">"クロスも自由に選べて、遊び心のある仕上がりに大満足です！"</p>
+      </div>
+      <div class="bg-white rounded-xl border border-sky-200 p-6">
+        <div class="text-sky-500 mb-2">★★★★★</div>
+        <p class="text-sm text-slate-600">"大手メーカー認定の安心感があり、迷わず依頼しました。"</p>
+      </div>
+      <div class="bg-white rounded-xl border border-sky-200 p-6">
+        <div class="text-sky-500 mb-2">★★★★★</div>
+        <p class="text-sm text-slate-600">"保険や保証の説明も丁寧で、信頼して任せられました。"</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-sky-700 text-white py-16">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-2xl md:text-3xl font-extrabold">このデモを、貴社専用に本格導入しませんか？</h2>
+      <p class="mt-4 text-sky-50">まずは15分のオンライン相談で、貴社に合わせたAI活用プランをご提案します。</p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a href="mailto:info@example.com" class="bg-white text-sky-700 font-bold px-8 py-3 rounded-full hover:bg-sky-50 transition">相談を申し込む</a>
+      </div>
+      <p class="mt-6 text-xs text-sky-100">※本ページはご提案用に作成したデモモックアップであり、実際のシステムとは連携していません。</p>
+    </div>
+  </section>
+
+  <footer class="bg-slate-900 text-slate-400 text-center text-xs py-6">
+    本デモサイトは提案目的で作成されたモックアップです。リフォームショップ株式会社様との資本・業務提携関係はありません。
+  </footer>
+
+</body>
+</html>

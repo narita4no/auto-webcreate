@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>キリン住宅株式会社様専用 | AI活用デモサイト</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif; }
+  .chat-bubble-in { animation: fadeIn .4s ease-out; }
+  @keyframes fadeIn { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:translateY(0);} }
+</style>
+</head>
+<body class="bg-yellow-50 text-stone-800">
+
+  <div class="bg-yellow-600 text-white text-center text-sm py-2 px-4">
+    このページはキリン住宅株式会社様のために作成した「専用デモサイト（試作案）」です。実際の導入イメージをご確認いただくためのモックアップです。
+  </div>
+
+  <header class="sticky top-0 z-30 bg-white/90 backdrop-blur border-b border-yellow-200">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-9 h-9 rounded-lg bg-yellow-600 flex items-center justify-center text-white font-bold">キ</div>
+        <span class="font-bold text-lg tracking-wide">キリン住宅</span>
+      </div>
+      <nav class="hidden md:flex gap-8 text-sm font-medium text-stone-600">
+        <a href="#service" class="hover:text-yellow-700">実績・強み</a>
+        <a href="#ai" class="hover:text-yellow-700">AI自動見積もり</a>
+        <a href="#voice" class="hover:text-yellow-700">お客様の声</a>
+        <a href="#contact" class="hover:text-yellow-700">お問い合わせ</a>
+      </nav>
+      <a href="#contact" class="bg-yellow-600 text-white text-sm font-bold px-5 py-2.5 rounded-full hover:bg-yellow-700 transition">無料相談する</a>
+    </div>
+  </header>
+
+  <section class="relative overflow-hidden bg-gradient-to-br from-yellow-50 via-white to-stone-50">
+    <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="inline-block bg-yellow-100 text-yellow-800 text-xs font-bold px-3 py-1 rounded-full mb-4">習志野・船橋・千葉市エリア対応</span>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight text-stone-900">
+          通算40,000件の実績を、<br class="hidden md:block">
+          <span class="text-yellow-700">AIでもっと即時に</span>お届け。
+        </h1>
+        <p class="mt-6 text-stone-600 leading-relaxed">
+          口コミ評価4.9（61件）、3店舗展開の確かな信頼に、AIによる「即時概算見積もり」を掛け合わせ。
+          既存のLINE相談窓口を、24時間その場で答えが返ってくる仕組みに進化させます。
+        </p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="#ai" class="bg-yellow-600 text-white font-bold px-6 py-3 rounded-full hover:bg-yellow-700 transition">AI自動見積もりを見る</a>
+          <a href="#contact" class="bg-white border border-stone-300 font-bold px-6 py-3 rounded-full hover:bg-stone-50 transition">資料をもらう</a>
+        </div>
+        <div class="mt-10 flex items-center gap-6 text-sm text-stone-500">
+          <div><span class="text-2xl font-extrabold text-stone-900">4.9</span> / 5.0（口コミ61件）</div>
+          <div class="w-px h-8 bg-stone-300"></div>
+          <div><span class="text-2xl font-extrabold text-stone-900">40,000</span>件+ 施工実績</div>
+          <div class="w-px h-8 bg-stone-300"></div>
+          <div><span class="text-2xl font-extrabold text-stone-900">3</span>店舗 展開</div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="bg-white rounded-2xl shadow-xl border border-yellow-200 p-5">
+          <div class="flex items-center gap-2 mb-4">
+            <div class="w-2.5 h-2.5 rounded-full bg-red-400"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-amber-400"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-green-400"></div>
+            <span class="ml-2 text-xs text-stone-400">LINE公式アカウント（デモ）</span>
+          </div>
+          <div class="bg-stone-100 rounded-xl p-4 space-y-3 h-80 overflow-y-auto">
+            <div class="chat-bubble-in flex justify-start">
+              <div class="bg-white rounded-2xl rounded-bl-sm px-4 py-2 text-sm shadow max-w-[80%]">
+                こんにちは！キリン住宅AIアシスタントです😊<br>夜間でも概算見積もりをその場でお出しできます。
+              </div>
+            </div>
+            <div class="chat-bubble-in flex justify-end">
+              <div class="bg-yellow-600 text-white rounded-2xl rounded-br-sm px-4 py-2 text-sm shadow max-w-[80%]">
+                マンションのキッチンを交換したいです
+              </div>
+            </div>
+            <div class="chat-bubble-in flex justify-start">
+              <div class="bg-white rounded-2xl rounded-bl-sm px-4 py-2 text-sm shadow max-w-[80%]">
+                承知しました！現在のキッチンの間口（幅）はおおよそ何cmですか？
+              </div>
+            </div>
+            <div class="chat-bubble-in flex justify-end">
+              <div class="bg-yellow-600 text-white rounded-2xl rounded-br-sm px-4 py-2 text-sm shadow max-w-[80%]">
+                255cmくらいです
+              </div>
+            </div>
+            <div class="chat-bubble-in flex justify-start">
+              <div class="bg-white rounded-2xl rounded-bl-sm px-4 py-2 text-sm shadow max-w-[80%]">
+                過去の同条件施工事例から、<br>
+                <span class="font-bold text-yellow-700">概算：75万円〜110万円</span> が目安です。<br>
+                担当者から翌営業日にご連絡し、詳細なお見積もりをお送りします。
+              </div>
+            </div>
+          </div>
+          <p class="text-xs text-center text-stone-400 mt-3">※夜間の一次ヒアリングをAIが自動対応するイメージです</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-2xl md:text-3xl font-extrabold text-center">キリン住宅が選ばれる理由</h2>
+    <p class="text-center text-stone-500 mt-3">創業1976年、地域3店舗の信頼</p>
+    <div class="grid md:grid-cols-3 gap-6 mt-12">
+      <div class="bg-white rounded-xl border border-yellow-200 p-6">
+        <div class="w-12 h-12 rounded-lg bg-yellow-100 flex items-center justify-center text-yellow-700 font-bold mb-4">実</div>
+        <h3 class="font-bold text-lg mb-2">通算40,000件以上の実績</h3>
+        <p class="text-sm text-stone-600">戸建て・マンション問わず幅広いリフォームに対応した豊富な実績。</p>
+      </div>
+      <div class="bg-white rounded-xl border border-yellow-200 p-6">
+        <div class="w-12 h-12 rounded-lg bg-yellow-100 flex items-center justify-center text-yellow-700 font-bold mb-4">店</div>
+        <h3 class="font-bold text-lg mb-2">3店舗のネットワーク</h3>
+        <p class="text-sm text-stone-600">習志野・船橋・千葉市に店舗を持ち、地域に密着した迅速な対応が可能。</p>
+      </div>
+      <div class="bg-white rounded-xl border border-yellow-200 p-6">
+        <div class="w-12 h-12 rounded-lg bg-yellow-100 flex items-center justify-center text-yellow-700 font-bold mb-4">口</div>
+        <h3 class="font-bold text-lg mb-2">口コミ評価4.9（61件）</h3>
+        <p class="text-sm text-stone-600">「最初の相談から完成まで終始一貫して丁寧な対応」など高評価多数。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ai" class="bg-stone-900 text-white py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl md:text-3xl font-extrabold text-center">AI導入で、こんな課題を解決できます</h2>
+      <p class="text-center text-stone-400 mt-3">既にあるLINE相談・オンライン見積もりを、さらに「即時」に</p>
+      <div class="grid md:grid-cols-2 gap-8 mt-14">
+        <div class="bg-stone-800 rounded-xl p-6 border border-stone-700">
+          <h3 class="font-bold text-lg text-red-400 mb-3">現状の課題（推測）</h3>
+          <ul class="space-y-3 text-sm text-stone-300">
+            <li class="flex gap-2"><span>・</span>LINEチャットやオンライン見積もりは営業時間内の人力対応が中心と推測され、夜間の即答ができていない可能性</li>
+            <li class="flex gap-2"><span>・</span>3店舗体制のため、問い合わせがどの店舗担当につながるか初動に時間がかかる場合がある</li>
+            <li class="flex gap-2"><span>・</span>40,000件超の実績データが、見積もり回答のスピードに活かしきれていない可能性</li>
+          </ul>
+        </div>
+        <div class="bg-yellow-600 rounded-xl p-6">
+          <h3 class="font-bold text-lg mb-3">AI活用による解決策</h3>
+          <ul class="space-y-3 text-sm">
+            <li class="flex gap-2"><span>・</span>既存LINE公式アカウントにAIを組み込み、24時間即時に概算見積もりを自動回答</li>
+            <li class="flex gap-2"><span>・</span>ヒアリング内容から最寄り店舗・担当者へ自動振り分け、初動対応を高速化</li>
+            <li class="flex gap-2"><span>・</span>過去40,000件の施工データを学習させ、より精度の高い概算提示を実現</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="voice" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-2xl md:text-3xl font-extrabold text-center">お客様の声（Googleクチコミより）</h2>
+    <div class="grid md:grid-cols-3 gap-6 mt-12">
+      <div class="bg-white rounded-xl border border-yellow-200 p-6">
+        <div class="text-yellow-500 mb-2">★★★★★</div>
+        <p class="text-sm text-stone-600">"最初の相談から完成まで終始一貫して丁寧な対応。"</p>
+      </div>
+      <div class="bg-white rounded-xl border border-yellow-200 p-6">
+        <div class="text-yellow-500 mb-2">★★★★★</div>
+        <p class="text-sm text-stone-600">"3店舗のどこに相談しても安心のクオリティでした。"</p>
+      </div>
+      <div class="bg-white rounded-xl border border-yellow-200 p-6">
+        <div class="text-yellow-500 mb-2">★★★★★</div>
+        <p class="text-sm text-stone-600">"長年の実績からくる提案力に信頼できました。"</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-yellow-600 text-white py-16">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-2xl md:text-3xl font-extrabold">このデモを、貴社専用に本格導入しませんか？</h2>
+      <p class="mt-4 text-yellow-50">まずは15分のオンライン相談で、貴社に合わせたAI活用プランをご提案します。</p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <a href="mailto:info@example.com" class="bg-white text-yellow-700 font-bold px-8 py-3 rounded-full hover:bg-yellow-50 transition">相談を申し込む</a>
+      </div>
+      <p class="mt-6 text-xs text-yellow-100">※本ページはご提案用に作成したデモモックアップであり、実際のシステムとは連携していません。</p>
+    </div>
+  </section>
+
+  <footer class="bg-stone-900 text-stone-400 text-center text-xs py-6">
+    本デモサイトは提案目的で作成されたモックアップです。キリン住宅株式会社様との資本・業務提携関係はありません。
+  </footer>
+
+</body>
+</html>
